@@ -1,0 +1,9 @@
+
+> @char46/koishi-plugin-video-parser-all@1.20.0-alpha.3 prepublishOnly
+> npm run build
+
+
+> @char46/koishi-plugin-video-parser-all@1.20.0-alpha.3+upstream.1.6.7 build
+> tsc
+
++ @char46/koishi-plugin-video-parser-all@1.20.0-alpha.3
