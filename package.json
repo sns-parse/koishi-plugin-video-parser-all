@@ -1,0 +1,39 @@
+{
+  "name": "@char46/koishi-plugin-video-parser-all",
+  "version": "1.20.0-alpha.1+upstream.1.6.7",
+  "description": "旧命名空间兼容壳（video-parser-all）：转发到 @sns-parse/koishi-plugin-sns-parse。建议迁移，迁移非强制。",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf lib",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@sns-parse/koishi-plugin-sns-parse": "^1.20.0-alpha.1"
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "koishi": "^4.18.7",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sns-parse/koishi-plugin-video-parser-all.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
